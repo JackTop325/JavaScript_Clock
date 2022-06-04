@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Button</title>
+    <link rel="stylesheet" href="../Clock.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="titleContainer">
+        <h1>Clock Button</h1>
+        <body>
+            Time:
+        </body>
+        <h2 class="time" id = "ClockDisplay" onload="showTime()"></h2>
+    </div>
+    <div id="btnContainer">
+        <button onclick="resetTime()" id="btn" type="button">Last Pressed: 00:00:00</button>
+    </div>
+    <script src="Clock.js"></script>
+</body>
+</html>
